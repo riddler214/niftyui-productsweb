@@ -13,21 +13,22 @@ $(window).on('load' ,function(){
 			$.niftyNoty({
 				type: 'info',
 				container : 'floating',
-				title : 'You have\'ve got 30 Messages',
-				message : 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
-				closeBtn : false,
+				title : 'Notification',
+				message : 'You have clicked Dashboard!',
+				closeBtn : true,
 				timer : 5000
 			});
 		});
 
 
-		$('#demo-noty-page').on('click', function(){
+		$('#noty-page').on('click', function(){
 			$.niftyNoty({
 				type: 'danger',
 				icon : 'fa fa-bolt fa-2x',
 				container : 'page',
-				title : 'Server Load Limited',
-				message : 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'
+				title : 'Error',
+				message : 'Daily Reports are not yet implemented.',
+				timer : 5000
 			});
 		});
 
