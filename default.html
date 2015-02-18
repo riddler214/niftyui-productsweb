@@ -357,66 +357,6 @@
 					</ul>
 					<ul class="nav navbar-top-links pull-right">
 
-						<!--Language selector-->
-						<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-						<li class="dropdown">
-							<a class="lang-selector dropdown-toggle" href="#" data-toggle="dropdown">
-								<span class="lang-selected">
-									<img class="lang-flag" src="img/flags/united-kingdom.png" alt="English">
-									<span class="lang-id">EN</span>
-									<span class="lang-name">English</span>
-								</span>
-							</a>
-
-							<!--Language selector menu-->
-							<ul class="head-list dropdown-menu with-arrow">
-								<li>
-									<!--English-->
-									<a href="#" class="active">
-										<img class="lang-flag" src="img/flags/united-kingdom.png" alt="English">
-										<span class="lang-id">EN</span>
-										<span class="lang-name">English</span>
-									</a>
-								</li>
-								<li>
-									<!--France-->
-									<a href="#">
-										<img class="lang-flag" src="img/flags/france.png" alt="France">
-										<span class="lang-id">FR</span>
-										<span class="lang-name">Fran&ccedil;ais</span>
-									</a>
-								</li>
-								<li>
-									<!--Germany-->
-									<a href="#">
-										<img class="lang-flag" src="img/flags/germany.png" alt="Germany">
-										<span class="lang-id">DE</span>
-										<span class="lang-name">Deutsch</span>
-									</a>
-								</li>
-								<li>
-									<!--Italy-->
-									<a href="#">
-										<img class="lang-flag" src="img/flags/italy.png" alt="Italy">
-										<span class="lang-id">IT</span>
-										<span class="lang-name">Italiano</span>
-									</a>
-								</li>
-								<li>
-									<!--Spain-->
-									<a href="#">
-										<img class="lang-flag" src="img/flags/spain.png" alt="Spain">
-										<span class="lang-id">ES</span>
-										<span class="lang-name">Espa&ntilde;ol</span>
-									</a>
-								</li>
-							</ul>
-						</li>
-						<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-						<!--End language selector-->
-
-
-
 						<!--User dropdown-->
 						<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 						<li id="dropdown-user" class="dropdown">
@@ -492,7 +432,7 @@
 				<!--Page Title-->
 				<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 				<div id="page-title">
-					<h1 class="page-header text-overflow">Expanded Navigation</h1>
+					<h1 class="page-header text-overflow">Welcome to productsweb v2.0</h1>
 
 					<!--Searchbox-->
 					<div class="searchbox">
@@ -506,20 +446,7 @@
 				</div>
 				<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 				<!--End page title-->
-
-
-				<!--Breadcrumb-->
-				<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-				<ol class="breadcrumb">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Library</a></li>
-					<li class="active">Data</li>
-				</ol>
-				<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-				<!--End breadcrumb-->
-
-
-		
+			
 
 				<!--Page content-->
 				<!--===================================================-->
@@ -528,12 +455,26 @@
 					
 					<!-- QUICK TIPS -->
 					<!-- ==================================================================== -->
-					<h3>Your content here...</h3>
-					<br>
-					<a href="index.html" class="btn btn-dark">Back</a>
-					<br><br><br>
-					<h3>Quick Tips</h3>
-					<p>You may remove all ID or Class names which contain <code>demo-</code>, they are only used for demonstration.</p>
+					<div class="row">
+						<div class="col-lg-12">
+							<div id="demo-panel" class="panel">
+								<div class="panel-heading">
+									<h3 class="panel-title">Products Handling and Logistics Department</h3>
+								</div>
+								<div class="panel-body">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<ul>
+										<li>To coordinate production cycles with Yanpet customers in accordance with plant production capability, and monitor inventory levels of Liquid product [Glycol, and Pygas]. </li>
+										<li>Process customer orders, monitor inventory level, and packaging raw material procurement.</li>
+										<li>Package and store production of all solid products [Polyethylene and Polypropylene] according to production schedule.</li>
+										<li>Meet packaging codes requirement to fit all types of customer orders needs of loading and unloading type of service, and packing requirement.</li>
+										<li>Issue export documents for each customer order and process shipping requirement of all cargos inside and outside the kingdom of Saudi Arabia.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
 					<br>
 					
 					<h4>Navigation</h4>
@@ -758,7 +699,7 @@
 									<li>
 										<a href="#">
 											<i class="fa fa-dashboard"></i>
-											<span class="menu-title">Dashboard</span>
+											<span id="noty-floating" class="menu-title">Dashboard</span>
 										</a>
 									</li>
 						
@@ -766,7 +707,7 @@
 									<li>
 										<a href="#">
 											<i class="fa fa-file-pdf-o"></i>
-											<span class="menu-title">
+											<span id="noty-page" class="menu-title">
 												Daily Reports
 												<span class="pull-right badge badge-purple">7</span>
 											</span>
@@ -795,13 +736,17 @@
 						
 										<!--Submenu-->
 										<ul class="collapse">
-											<li><a href="#">Link</a></li>
-											<li class="active-link"><a href="#">Active link</a></li>
-											<li><a href="#">Another link</a></li>
-											<li><a href="#">Some else here</a></li>
+											<li><a href="#">Downtime Detail</a></li>
+											<li><a href="#">Packaging Performance</a></li>
+											<li><a href="#">Silo Inventory</a></li>
+											<li><a href="#">Monthly Production Target</a></li>
 											<li class="list-divider"></li>
-											<li><a href="#">Separate link</a></li>
-											
+											<li><a href="#">Daily Packaging Performance</a></li>
+											<li><a href="#">Daily Machine Downtime</a></li>
+											<li><a href="#">Downtime Detail</a></li>
+											<li><a href="#">Production Lost Time</a></li>
+											<li><a href="#">Historical Data</a></li>
+											<li><a href="#">Summary Range</a></li>
 										</ul>
 									</li>
 
@@ -1204,6 +1149,7 @@
 	
 	<!--Nifty Admin [ RECOMMENDED ]-->
 	<script src="js/nifty.min.js"></script>
+	<script src="js/productsweb.js"></script>
 
 	
 	<!--
